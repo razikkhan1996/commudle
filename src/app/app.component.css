@@ -1,0 +1,38 @@
+.navbar-wrapper{
+    display: flex;
+    /* justify-content:space-between; */
+    position: fixed;
+    z-index: 9999;
+    width: 99%;
+    padding:20px;
+    margin: 0px;
+    background:#000000;
+}
+
+.content-container{
+    background: radial-gradient(#730621, #000000);
+    background-position: center;
+}
+
+.navbar {
+    background: linear-gradient(to bottom , black , black);
+
+}
+
+.btn {
+    background: #730621;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn:hover {
+    color: white;
+    box-shadow: 10px 10px 10px solid yellow;
+}
